@@ -1,1 +1,16 @@
-# CS790-spring24
+# How to do the assignment?
+Download the VM I already created for you and import it into VirtualBox or VMWare Workstation. This VM can be found in "Modules" section on Canvas.
+If you don't know how to import the VM, please read about it online as there are plenty of resources online.
+Once you imported the VM successfully, download this git repository and navigate to "exercises" folder for further information. 
+
+# What's inside the VM?
+Mnay things! It already hs [mininet](https://mininet.org/) installed which allows you to create a virtual network. Also, it has [bmv2](https://github.com/p4lang/behavioral-model) installed on it which is a software-based programmable switch. In other words, we will use Mininet to create a network of devices while the switches in that network are programmable (using BMV2). 
+
+# Your task:
+You need to write a P4 code that runs on the BMV2 swithces and does the required task. have questions about P4? See the PDF I uploaded here. 
+
+# Grading
+
+There are 3 exercies to do. Basic and ECN are mandatory and load balancing is optional. You will get extra credit if you do the optional exercise. 50 points for each of basic and ECN exercises. 
+
+
