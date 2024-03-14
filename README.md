@@ -4,7 +4,7 @@ If you don't know how to import the VM, please read about it online as there are
 Once you imported the VM successfully, download this git repository and navigate to "exercises" folder for further information. 
 
 # What's inside the VM?
-Mnay things! It already hs [mininet](https://mininet.org/) installed which allows you to create a virtual network. Also, it has [bmv2](https://github.com/p4lang/behavioral-model) installed on it which is a software-based programmable switch. In other words, we will use Mininet to create a network of devices while the switches in that network are programmable (using BMV2). 
+Many things! It already has [mininet](https://mininet.org/) installed which allows you to create a virtual network. Also, it has [bmv2](https://github.com/p4lang/behavioral-model) installed on it which is a software-based programmable switch. In other words, we will use Mininet to create a network of devices while the switches in that network are programmable (using BMV2). 
 
 # Your task:
 You need to write a P4 code that runs on the BMV2 swithces and does the required task. have questions about P4? See the PDF I uploaded here. 
