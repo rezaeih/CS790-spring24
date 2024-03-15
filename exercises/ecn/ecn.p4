@@ -131,8 +131,13 @@ control MyEgress(inout headers hdr,
     apply {
         /*
          * TODO:
-         * - if ecn is 1 or 2
-         *   - compare standard_metadata.enq_qdepth with threshold 
+         * - we will be implementing floating threshold ecn marking:
+         * - you update the threshold each "1 second" so that if average queue length is:
+         *      - less than or equal 10, ecn threshold will be a very large value (say total queue length)
+         *      - more than 10, ecn threshold will be 5 packets. 
+         * Then
+         * - if ecn is 1 or 2 (ecn 1 or 2 means the packet is ecn capabale)
+         *   - compare standard_metadata.enq_qdepth with ecn threshold 
          *     and set hdr.ipv4.ecn to 3 if larger
          */
     }

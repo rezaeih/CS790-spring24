@@ -9,8 +9,9 @@ Many things! It already has [mininet](https://mininet.org/) installed which allo
 # Your task:
 You need to write a P4 code that runs on the BMV2 swithces and does the required task. have questions about P4? See the PDF I uploaded here. 
 
-# Grading
-
+# Turning in:
+You need to upload the successful ping output between two machines for basic exercise and you need to upload the packets arrived at the destination (either screenshot or .pcap file) that have ecn 0x3 on them for the ECN exercise. Of course you need to upload your p4 codes as well. Thus, you need to turn in the same folder of exercises with completed p4 codes along with the files I mentioned above. 
+# Grading:
 There are 3 exercies to do. Basic and ECN are mandatory and load balancing is optional. You will get extra credit if you do the optional exercise. 50 points for each of basic and ECN exercises. 
 
 
