@@ -1,7 +1,7 @@
 # How to do the assignment?
 Download the [VM](https://drive.google.com/file/d/1H44wqBTilNhuIShEvsnqF9xdWNl4jnBH/view?usp=sharing) I already created for you and import it into VirtualBox or VMWare Workstation.
 If you don't know how to import the VM, please read about it online as there are plenty of resources online.
-Once you imported the VM successfully, download this git repository and navigate to "exercises" folder for further information. 
+Once you imported the VM successfully, open terminal and look for cs-790-spring23 repository and navigate to "exercises" folder for further information. 
 
 # What's inside the VM?
 Many things! It already has [mininet](https://mininet.org/) installed which allows you to create a virtual network. Also, it has [bmv2](https://github.com/p4lang/behavioral-model) installed on it which is a software-based programmable switch. In other words, we will use Mininet to create a network of devices while the switches in that network are programmable (using BMV2). 
