@@ -1,5 +1,5 @@
 # How to do the assignment?
-Download the [VM](https://drive.google.com/file/d/1H44wqBTilNhuIShEvsnqF9xdWNl4jnBH/view?usp=sharing) I already created for you and import it into VirtualBox or VMWare Workstation.
+Download the [VM](https://drive.google.com/file/d/1H44wqBTilNhuIShEvsnqF9xdWNl4jnBH/view?usp=drive_link) I already created for you and import it into VirtualBox or VMWare Workstation.
 If you don't know how to import the VM, please read about it online as there are plenty of resources online.
 Once you imported the VM successfully, open terminal and look for cs790 repository and navigate to "exercises" folder for further information. 
 
