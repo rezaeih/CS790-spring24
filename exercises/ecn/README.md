@@ -87,8 +87,11 @@ missing piece.
 First we have to change the ipv4_t header by splitting the TOS field
 into DiffServ and ECN fields.  Remember to update the checksum block
 accordingly.  Then, in the egress control block we must compare the
-queue length with ECN_THRESHOLD. If the queue length is larger than
-the threshold, the ECN flag will be set.  Note that this logic should
+queue length with ECN_THRESHOLD. You will be implementing floating threshold ecn marking:
+You will check the queue length each 1 second. If the queue length is less than 10 packets,
+ECN threshold will be set to a very large value. Otherwise, ECN threshold will be 10 packets. 
+Then you should mark all (ECN = 3) those packets that are scheduled behind the threshold.
+Note that this logic should
 happen only if the end-host declared supporting ECN by setting the
 original ECN to 1 or 2.
 
