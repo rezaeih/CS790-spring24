@@ -7,7 +7,7 @@ Once you imported the VM successfully, open terminal and look for cs790-spring23
 Many things! It already has [mininet](https://mininet.org/) installed which allows you to create a virtual network. Also, it has [bmv2](https://github.com/p4lang/behavioral-model) installed on it which is a software-based programmable switch. In other words, we will use Mininet to create a network of devices while the switches in that network are programmable (using BMV2). 
 
 # Your task:
-You need to write a P4 code that runs on the BMV2 swithces and does the required task. have questions about P4? See the PDF I uploaded here. 
+You need to write a P4 code that runs on the BMV2 swithces and does the required task. have questions about P4? See the PDF I uploaded here. make sure that you use cs79-spring23 folder. 
 
 # Turning in:
 You need to upload the successful ping output between two machines for basic exercise and you need to upload the packets arrived at the destination (either screenshot or .pcap file) that have ecn 0x3 on them for the ECN exercise. Of course you need to upload your p4 codes as well. Thus, you need to turn in the same folder of exercises with completed p4 codes along with the files I mentioned above. 
