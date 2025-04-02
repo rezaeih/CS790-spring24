@@ -3,7 +3,7 @@
 - Read about P4 language and learn the basics. You can find plenty of resources online. You don't need to be expert in this but learn about the structure and try to implement some basic functionalities using it. for example, try to implement a simple calculator that only does addition. 
 - Read about Behavioral Model Version 2 (BMV2). It is a software switch that we can use to program using P4. Also, spend some time on understanding Mininet, which is a network emulator. 
 # How to do the assignment?
-Download the [VM](https://drive.google.com/file/d/1H44wqBTilNhuIShEvsnqF9xdWNl4jnBH/view?usp=drive_link) I already created for you and import it into VirtualBox or VMWare Workstation.
+Download the [VM](https://drive.google.com/file/d/1gxnkgYPReZrb-Um3rSQw2eM4a_Ln4hSB/view?usp=drive_link) I already created for you and import it into VirtualBox or VMWare Workstation.
 If you don't know how to import the VM, please read about it online as there are plenty of resources online.
 Once you imported the VM successfully, open terminal and look for cs790-spring23 repository and navigate to "exercises" folder for further information. 
 
